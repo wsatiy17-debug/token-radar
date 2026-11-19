@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Radar — pre-token protocols ranked by implied value</title>
+<link rel="stylesheet" href="radar.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="brand">
+      <span class="sweep" aria-hidden="true"><i></i></span>
+      <div>
+        <strong>TOKEN RADAR</strong>
+        <span class="tagline">Every protocol with no token on record, ranked by what its token would be worth</span>
+      </div>
+    </div>
+    <div class="masthead-meta" id="masthead-meta"></div>
+  </div>
+</header>
+<main id="app" aria-busy="true">
+  <noscript><p class="noscript">This radar renders in the browser: enable JavaScript to see the board.</p></noscript>
+</main>
+<footer class="foot">
+  <p>Implied value is a model calibrated on the snapshot's own live-token market, not a price and not a prediction that a token will launch. A protocol is shown as pre-token because its record carries no token, never as proof it has none. Data: DefiLlama protocol index, frozen at the snapshot date.</p>
+</footer>
+<script src="../data.js"></script>
+<script src="radar.js"></script>
+</body>
+</html>
